@@ -1,0 +1,24 @@
+//Dengan Joi Validasi
+### 
+GET http://localhost:3000/users/ricky/1
+
+
+
+###
+POST  http://localhost:3000/create/admin
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/updateUser/admin/1
+Content-Type: application/json
+
+###
+PATCH  http://localhost:3000/updateData/admin/1
+Content-Type: application/json
+
+###
+DELETE  http://localhost:3000/delete/admin/1
+
+//Example Error Route untuk cek msg
+###
+DELETE  http://localhost:3000/delete/user/1
