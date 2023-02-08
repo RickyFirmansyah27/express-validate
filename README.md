@@ -45,7 +45,7 @@ PATCH  http://localhost:3000/updateData/admin/1
 Content-Type: application/json
 
 ###
-DELETE  http://localhost:3000/delete/1
+DELETE  http://localhost:3000/delete/admin/1
 ```
 ---------
 
